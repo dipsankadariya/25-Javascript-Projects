@@ -31,5 +31,6 @@ Below is a list of the projects included in this repository, along with a brief 
 | 21  | **Weather App**                       | An app that fetches and displays weather information for a user-specified location. |
 | 22  | **Whac-A-Mole Game**                  | A simple game where users score points by "whacking" moles that pop up randomly on the screen. |
 | 23  | **YouTube Clone**                     | A basic clone of YouTube, allowing users to search for videos and view video details. |
+| 24  | **Clock Main**                        | A basic Clock app tha shows the real time. |
 
 
