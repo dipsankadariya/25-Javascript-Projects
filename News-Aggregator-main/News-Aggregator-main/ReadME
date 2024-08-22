@@ -1,0 +1,4 @@
+This is a simple news aggregator web application that fetches news articles from an external API and displays them on the webpage.
+Due to CORS (Cross-Origin Resource Sharing) restrictions imposed by the API provider, this application is only functional when run locally on your machine.
+
+

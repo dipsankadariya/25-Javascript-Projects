@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel="stylesheet" href="style.css" >
+
+  </head>
+  <body>
+   <div id="calculator">
+    <input id="display" readonly>
+    <div id="keys">
+     <button onclick="appendtodisplay('+')" class="operator-btn">+</button>
+     <button onclick="appendtodisplay('7')">7</button>
+     <button onclick="appendtodisplay('8')">8</button>
+     <button onclick="appendtodisplay('9')">9</button>
+     <button onclick="appendtodisplay('-')"class="operator-btn">-</button>
+     <button onclick="appendtodisplay('4')">4</button>
+     <button onclick="appendtodisplay('5')">5</button>
+     <button onclick="appendtodisplay('6')">6</button>
+     <button onclick="appendtodisplay('*')" class="operator-btn">*</button>
+     <button onclick="appendtodisplay('1')">1</button>
+     <button onclick="appendtodisplay('2')">2</button>
+     <button onclick="appendtodisplay('3')">3</button>
+     <button onclick="appendtodisplay('/')" class="operator-btn">/</button>
+     <button onclick="appendtodisplay('0')">0</button>
+     <button onclick="appendtodisplay('.')">.</button>
+     <button onclick ="calculate()">=</button>
+     <button onclick="clearDisplay()" class="operator-btn">C</button>
+   
+    </div>
+
+   </div>
+   <script src="index.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+<!--
+  
+    <script>
+      
+    const display = document.getElementById('display');
+
+    function appendtodisplay(input)
+    {
+     display.value += input;
+    }
+    function clearDisplay()
+   {
+     display.value = '';
+   }
+   function calculate()
+   {
+    try{
+    display.value = eval(display.value);
+   }
+   catch(error)
+   {
+    display.value = 'Error'; 
+  }
+}
+</script>
+-->

@@ -1,0 +1,128 @@
+/* Import a cool font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Reset some default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Main section styles */
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Input section styles */
+.input-section {
+    margin-bottom: 1.5rem;
+}
+
+.input-section label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.input-section input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* QR code section styles */
+.qr-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.qr-container {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#qr-code-image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Button section styles */
+.button-section {
+    text-align: center;
+}
+
+#generate-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+#generate-btn:hover {
+    background-color: #555;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    width: 80%;
+    margin: auto;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    main {
+        margin: 1rem;
+    }
+
+    .qr-container {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    .qr-container {
+        width: 120px;
+        height: 120px;
+    }
+
+    footer {
+        width: 90%;
+    }
+}

@@ -1,0 +1,94 @@
+body {
+    background-color: #f7fafc;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    color: #333333;
+    font-size: 32px;
+  }
+  
+  #jokeDisplay {
+    background-color: white;
+    padding: 50px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Media queries for responsive design */
+  @media (max-width: 768px) {
+    .container {
+      margin: 20px;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    #jokeDisplay {
+      font-size: 16px;
+    }
+  
+    button {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      margin: 10px;
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 20px;
+    }
+  
+    #jokeDisplay {
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    button {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }

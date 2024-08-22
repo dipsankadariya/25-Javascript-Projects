@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 10px 0;
+    color: #333;
+    align-items: center;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.square {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #0b0a0a;
+    background-color: #fff;
+    border: 2px solid rgb(142, 135, 135);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.square:hover {
+    background-color: #ddd;
+}
+
+.mole {
+    background-image: url("mole.jpg");
+    background-size: cover;
+}
+
+#start-btn,#stop-btn ,#reset-btn{
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+#start-btn:hover,#stop-btn:hover ,#reset-btn:hover{
+    background-color: #45a049;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}

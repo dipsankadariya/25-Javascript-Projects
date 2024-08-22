@@ -1,0 +1,16 @@
+p {
+    padding: 10px;
+    font-size: 16px;
+    min-width: 100px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(100, 100, 111, 0.2);
+}
+
+input, button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}

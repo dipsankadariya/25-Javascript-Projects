@@ -1,0 +1,43 @@
+body{
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid blue;
+  height: 300px;
+  width: 350px;
+  justify-content: center;
+  align-items: center;
+  line-height:5rem;
+  background-color:lightblue;
+  border-radius: 20px;
+}
+.buttons{
+  padding: 20px;
+}
+.css-start-button,.css-pause-button,.css-reset-button{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+
+  background-color:rgb(91, 91, 231);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px; 
+  color: white;
+  cursor: pointer;
+}
+.timer-display{
+  font-size: 40px;
+  font-family:Arial, Helvetica, sans-serif;
+  border: 2px solid blue;
+  border-radius: 20px;
+  padding: 10px 40px;
+  background-color: white;
+  text-align: center;
+}
